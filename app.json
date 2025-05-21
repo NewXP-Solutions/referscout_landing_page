@@ -1,0 +1,14 @@
+{
+  "name": "referscout-landing",
+  "scripts": {},
+  "env": {
+    "NPM_CONFIG_LEGACY_PEER_DEPS": {
+      "value": "true"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
