@@ -2,13 +2,14 @@
   "name": "referscout-landing",
   "scripts": {},
   "env": {
-    "NPM_CONFIG_LEGACY_PEER_DEPS": {
-      "value": "true"
+    "NPM_CONFIG_PRODUCTION": {
+      "value": "false"
     }
   },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "stack": "heroku-22"
 }
